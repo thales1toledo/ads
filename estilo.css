@@ -1,46 +1,64 @@
-html,
 body {
-    height: 100%;
+  background-color: #161122;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
 }
 
-body {
-    background: linear-gradient(to bottom right, #c0c0c0, #000);
-    font-family: Arial, sans-serif;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
 }
-h1 {
-    color: #fff;
+
+.header img {
+  width: 200px;
+  height: 130px;
+  padding: 10px;
+}
+
+.header h1 {
+  color: #ffffff;
+  font-size: 32px;
+  margin-top: 20px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 fieldset {
-    border: 2px solid #000;
-    border-radius: 10px;
-    width: 50%;
-    margin: 0 auto;
-    padding: 30px;
-    background-color: #fff;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 label {
-    font-size: 1.2em;
+  color: #333333;
+  font-size: 18px;
 }
 
 input[type="radio"] {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 input[type="submit"] {
-    display: block;
-    margin: 30px auto 0;
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  transition: 0.8s;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 input[type="submit"]:hover {
-    background-color: #666;
-    transition: .3s;
+  background-color: #45a049;
 }

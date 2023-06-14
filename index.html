@@ -1,37 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
     <title>Trabalho Final</title>
-</head>
+  </head>
 
-<body>
-    <h1 align="center">Sistema de Cadastro de Pessoas</h1>
-    <h2 align="center">Escolha o tipo de pessoa para cadastrar</h2>
-
-    <fieldset>
+  <body>
+    <div class="header">
+      <img src="univicosa_vertical.png" alt="" />
+      <h1 align="center">Sistema de Cadastro de Pessoas</h1>
+    </div>
+    <div class="formulario">
+      <fieldset>
         <form action="form.php" method="post">
-            <input type="radio" name="tipoPessoa" value="FuncAdm">
-            <label>Func. Administrativo</label><br>
-            <input type="radio" name="tipoPessoa" value="FuncDocente">
-            <label>Func. Docente</label><br>
-            <input type="radio" name="tipoPessoa" value="Discente">
-            <label>Discente</label><br><br>
-            <!-- <select name="tipoPessoa">
-                <option value="FuncAdm">Func. Administrativo</option>
-                <option value="FuncDocente">Func. Docente</option>
-                <option value="Discente">Discente</option>
-            </select> -->
-            <input type="submit" value="Cadastrar">
+          <input type="radio" name="tipoPessoa" value="FuncAdm" />
+          <label>Func. Administrativo</label><br />
+          <input type="radio" name="tipoPessoa" value="FuncDocente" />
+          <label>Func. Docente</label><br />
+          <input type="radio" name="tipoPessoa" value="Discente" />
+          <label>Discente</label><br /><br />
+          <input type="submit" value="Cadastrar" />
         </form>
-
-    </fieldset>
-
-
-</body>
-
+      </fieldset>
+    </div>
+  </body>
 </html>
